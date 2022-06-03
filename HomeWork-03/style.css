@@ -64,7 +64,7 @@ body{
 }
 
 .button-2-banner_2{
-    background-image: url("image/image10.svg");
+    background-image: url(image/image10.svg);
     padding-left: 10px;
     cursor: pointer;
 }
