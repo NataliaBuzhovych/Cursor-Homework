@@ -123,6 +123,7 @@ main{
     padding-left: 31px;
 }
 .button{
+    width: 160px;
     box-sizing: border-box;
     font-weight: 400;
     font-size: 14px;
