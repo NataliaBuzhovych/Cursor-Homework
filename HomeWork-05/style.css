@@ -91,9 +91,8 @@ select{
 #box {
     display: none;
 }
-.cover-checkbox{
-    display: flex;
-}
+
+
 
 label {
     padding: 1px 6px;
