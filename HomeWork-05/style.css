@@ -99,6 +99,10 @@ label {
     border-radius: 2px;
 }
 
+input:checked+label {
+    background: #000;
+    color: #fff
+}
 .table-three {
     width: 605px;
     height: 154px;
