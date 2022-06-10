@@ -96,7 +96,7 @@ select{
 }
 
 label {
-    padding: 1px 1px;
+    padding: 1px 6px;
     margin-right: 5px;
     background-color: rgb(10, 105, 194);
     border-radius: 2px;
