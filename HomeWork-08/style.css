@@ -33,6 +33,7 @@ div:nth-of-type(n+21) {
     height: 8px;
 }
 button{
+    cursor: pointer;
     box-sizing: border-box;
     margin-right: 53px;
     margin-left: 53px;
@@ -54,6 +55,14 @@ button{
     border-bottom: 2px solid #C4C4C4;
     width: 200px;
     height: 8px;
+}
+button:hover{
+    transition: all 0.5s ease-in-out ;
+    color: #44D3A8;
+    background-color: white;
+    width: 522px;
+    height: 100px;
+    font-size: 26px;
 }
 
 
