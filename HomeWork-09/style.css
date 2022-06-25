@@ -293,7 +293,7 @@ ul{
 .sixth-page h2{
     margin-bottom: 58px;
 }
-.canals{
+.channels{
     flex-wrap: wrap;
     width: 75%;
     display: flex;
@@ -437,7 +437,7 @@ footer{
             "item7 item8"
             "item9 item10";
     }
-    .canals{
+    .channels{
         width: 80%;
         height: 180px;
         display: flex;
