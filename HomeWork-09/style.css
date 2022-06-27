@@ -209,9 +209,9 @@ p{
 .square p{
     color: white;
     font-size: 16px;
-    line-height: 23px;
-    margin-top: 11px;
-}
+    line-height: 23px;}
+
+
 /* Fifth page */
 .fifth-page{
     position: relative;
@@ -269,7 +269,7 @@ p{
     border-radius: 4px;
     padding: 15px 13px 24px 17px;
 }
-ul{
+.respond ul{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -711,4 +711,5 @@ footer{
     .img8{
         margin-bottom: 90px;
     }
+    .dot{display: none;}
 }
