@@ -614,6 +614,7 @@ footer{
         fill: #00ADEE;
     }
     .square p{
+        text-align: center;
         color: #4F4F4F;
     }
     .square svg {
