@@ -531,7 +531,7 @@ footer{
     }
 
     .second-left {
-        height: 80vh;
+        height: 90vh;
         width: 100vw;
         background: linear-gradient(180deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url('images/Rectangle.png') no-repeat;
         background-size: cover;
