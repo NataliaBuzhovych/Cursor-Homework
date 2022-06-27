@@ -446,7 +446,7 @@ footer{
             "item9 item10";
     }
     .channels{
-        width: 80%;
+        width: 50%;
         height: 180px;
         display: flex;
         justify-content: space-around;
@@ -531,7 +531,7 @@ footer{
     }
 
     .second-left {
-        height: 100%;
+        height: 80vh;
         width: 100vw;
         background: linear-gradient(180deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url('images/Rectangle.png') no-repeat;
         background-size: cover;
@@ -588,7 +588,7 @@ footer{
         height: 2000px;
     }
     .fourth-page h2 {
-        margin-top: 24px;
+        margin-top: 74px;
         color: #333333;
     }
     .grid {
@@ -610,6 +610,9 @@ footer{
             "item8"
             "item9";
     }
+    .dot {
+            display: none;
+        }
     .fill{
         fill: #00ADEE;
     }
@@ -634,6 +637,27 @@ footer{
     .sixth-page {
         text-align: center;
         height: 409px;
+    }
+    .img3 {
+        margin-bottom: 20px;
+        margin-right: 37px;
+    }
+
+    .img4 {
+        margin-bottom: 20px;
+    }
+
+    .img5,
+    .img7 {
+        margin-bottom: 40px;
+    }
+
+    .img6 {
+        margin-bottom: 53px;
+    }
+
+    .img8 {
+        margin-bottom: 90px;
     }
     .seventh-page img{
         max-width: 100%;
@@ -688,29 +712,14 @@ footer{
 }
 @media (max-width: 360px){
     .second-left {
-            height: 388px;}
+        height: 388px;}
             
     .third-right img {
-            width: 100vw;
-            height: auto;}
+        width: 100vw;
+        height: auto;}
     .grad img {
         margin-right: 0px;
     }
-    .img3{
-        margin-bottom: 20px;
-        margin-right: 37px;
-    }
-    .img4{
-        margin-bottom: 20px;
-    }
-    .img5, .img7{
-        margin-bottom: 40px;
-    }
-    .img6{
-        margin-bottom: 53px;
-    }
-    .img8{
-        margin-bottom: 90px;
-    }
-    .dot{display: none;}
+    .channels {
+        width: 88%;}
 }
