@@ -94,9 +94,10 @@ margin-bottom: 0px
 }
 .third div a{
     font-weight: 500;
-        font-size: 17px;
-        line-height: 21px;
-}
+    font-size: 17px;
+    line-height: 21px;
+    color: #133768;
+    }
 .imgborder{max-width: 87px;
     height: 87px;
 }
