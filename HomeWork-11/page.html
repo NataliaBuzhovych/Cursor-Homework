@@ -13,55 +13,51 @@
   </head>
   <body>
     <div class="container pt-3 d-flex flex-column align-items-center">
-      <header>
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <img src="images/insta.svg" alt="logo" />
-          </li>
-          <li class="nav-item">
-            <div class="input-group rounded search">
-              <input
-                type="search"
-                class="form-control rounded text-center"
-                placeholder="&telrec; Search"
-                aria-label="Search"
-                aria-describedby="search-addon"
-              />
-            </div>
-          </li>
-          <li class="nav-item">
-            <ul class="nav justify-content-between icons">
-              <li class="nav-item">
-                <img src="images/home.svg" alt="icon home" />
-              </li>
-              <li class="nav-item">
-                <img src="images/massege.svg" alt="icon massege" /><span
-                  class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger"
-                  >5</span
-                >
-              </li>
-              <li class="nav-item">
-                <img src="images/search.svg" alt="icon search" />
-              </li>
-              <li class="nav-item">
-                <img src="images/like.svg" alt="icon like" />
-              </li>
-              <li class="nav-item">
-                <img src="images/Ellipse.svg" alt="avatar" />
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </header>
-
-      <hr class="text border-2 opacity-50" />
+      <ul class="nav justify-content-center head">
+        <li class="nav-item main-li">
+          <img src="images/insta.svg" alt="logo" />
+        </li>
+        <li class="nav-item main-li">
+          <div class="input-group rounded search">
+            <input
+              type="search"
+              class="form-control rounded text-center"
+              placeholder="&telrec; Search"
+              aria-label="Search"
+              aria-describedby="search-addon"
+            />
+          </div>
+        </li>
+        <li class="nav-item main-li">
+          <ul class="nav justify-content-between icons">
+            <li class="nav-item">
+              <img src="images/home.svg" alt="icon home" />
+            </li>
+            <li class="nav-item">
+              <img src="images/massege.svg" alt="icon massege" /><span
+                class="position-absolute top-10 start-10 translate-middle badge rounded-pill bg-danger"
+                >5</span
+              >
+            </li>
+            <li class="nav-item">
+              <img src="images/search.svg" alt="icon search" />
+            </li>
+            <li class="nav-item">
+              <img src="images/like.svg" alt="icon like" />
+            </li>
+            <li class="nav-item">
+              <img src="images/Ellipse.svg" alt="avatar" />
+            </li>
+          </ul>
+        </li>
+      </ul>
 
       <main>
         <div class="row main-row">
           <div class="col-3 offset-1">
             <img class="img-fluid" src="images/avatar.svg" alt="Avatar" />
           </div>
-          <div class="col-8">
+          <div class="col-8 main-text">
             <div class="row first">
               <div class="col-6 d-flex align-items-center">
                 <h5>name</h5>
@@ -78,7 +74,7 @@
             </div>
             <div class="row second">
               <div
-                class="col-7 d-flex align-items-center justify-content-between posts"
+                class="col-7 d-flex align-items-center justify-content-between followers"
               >
                 <h6><b>79</b> posts</h6>
                 <h6><b>379</b> followers</h6>
@@ -126,7 +122,7 @@
             </div>
           </div>
         </div>
-        <nav>
+        <nav class="posts">
           <div
             class="nav nav-tabs justify-content-center"
             id="myTab"
