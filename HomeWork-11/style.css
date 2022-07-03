@@ -23,7 +23,7 @@ body{
 }
 
 main{
-    border-top: 1px solid gray;
+    border-top: 1px solid #DBDBDB;
     padding-top: 27px;
     margin-top: 10px;
     max-width: 944px;
