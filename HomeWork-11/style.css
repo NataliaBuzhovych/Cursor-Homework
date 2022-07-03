@@ -1,0 +1,160 @@
+
+body{
+    color: #262626;
+    background-color: #FAFAFA;
+}
+.container{
+    max-width: 1448px;
+    background-color: #FAFAFA;
+}
+.icons{
+    width: 198px;
+}
+.search{
+    margin-left: 250px;
+    margin-right: 173px;
+    width: 216px;
+}
+hr{
+    max-width: 1444px;
+}
+main{
+    max-width: 944px;
+}
+.main-row{
+    margin-bottom: 56px;
+}
+.first{
+    margin-bottom: 21px;
+}
+h5{
+    margin-right: 26px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.btn{
+    background-color: #4094EF;
+    color: white;
+    cursor: pointer;
+}
+.follow{
+    width: 97px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 6px 26px;
+}
+.small{
+    margin-left: 8px;
+    margin-right: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 29px;
+    width: 33px;
+}
+.circle{
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: black;
+}
+.else{width: 20px;
+}
+.second{
+    margin-bottom: 21px;
+}
+.posts{
+    padding: 0 0 0 12px;
+    width: 343px;
+}
+.third div h6{
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+margin-bottom: 0px
+}
+.third div p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 0px ;
+}
+.third div a{
+    font-weight: 500;
+        font-size: 17px;
+        line-height: 21px;
+}
+.imgborder{max-width: 87px;
+    height: 87px;
+}
+.second-row{
+    margin-bottom: 39px;
+}
+.ellips{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.ellips p{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 15px;
+}
+.nav-link {
+    color: #133768;
+    font-weight: 600;
+}
+
+.posts {
+    border-top: 1px solid #DBDBDB;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+    border: none !important;
+    border-radius: 0px;
+    background-color: transparent !important;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.09em;
+    color: #8F8F8F;
+    margin: 0 32px;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #262626 !important;
+}
+
+.nav-link.active {
+    border-top: 1px solid #262626 !important;
+}
+
+.nav-link:hover svg path {
+    fill: #262626;
+}
+
+
+
+@media (max-width: 576px){
+    .search {
+            margin-left: 0;
+            margin-right: 0;
+
+        }
+}
