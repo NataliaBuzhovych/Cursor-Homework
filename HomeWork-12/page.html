@@ -21,7 +21,7 @@
 <body>
 
   <header>
-    <div class="container navigation">
+    <div class="container navigation ">
       <ul class="navigation-menu">
         <li><a class="nav-link" href="#">Home</a></li>
         <li><a class="nav-link" href="#">About</a></li>
@@ -163,11 +163,14 @@
           <li><a class="nav-link" href="#">Contact</a></li>
         </ul>
         <ul class="navigation-icons">
-          <li><a class="nav-link" href="#"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a class="nav-link" href="#"><i class="fab fa-linkedin-in"></i></a></li>
-          <li><a class="nav-link" href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a class="nav-link" href="#"><i class="fab fa-youtube"></i></a></li>
-          <li><a class="nav-link" href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="social__item"><a class="nav-link" id="#face" href="#face"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li class="social__item"><a class="nav-link" id="#linkin" href="#linkin"><i
+                class="fab fa-linkedin-in"></i></a></li>
+          <li class="social__item"><a class="nav-link" id="#twit" href="#twit"><i class="fab fa-twitter"></i></a></li>
+          <li class="social__item"><a class="nav-link" id="#yt" href="#yt"><i class="fab fa-youtube"></i></a></li>
+          <li class="social__item"><a class="nav-link" id="#insta" href="#insta"><i class="fab fa-instagram"></i></a>
+          </li>
 
         </ul>
 
@@ -179,19 +182,19 @@
 
   </footer>
 
-  <!-- <script>
-      const socialItems = document.querySelectorAll(".social__item");
+  <script>
+    const socialItems = document.querySelectorAll(".social__item");
 
-      socialItems.forEach((el) => {
-        el.addEventListener("click", () => {
-          socialItems.forEach((item) =>
-            item.classList.remove("social__item--active")
-          );
+    socialItems.forEach((el) => {
+      el.addEventListener("click", () => {
+        socialItems.forEach((item) =>
+          item.classList.remove("social__item--active")
+        );
 
-          el.classList.add("social__item--active");
-        });
+        el.classList.add("social__item--active");
       });
-    </script> -->
+    });
+  </script>
 </body>
 
 </html>

@@ -14,3 +14,8 @@ header {
     background-image: url(images/bgn.png);
     display: flex;
     align-items: center;}
+@media (max-width: 1200px) {
+    header {
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.674) 0%, rgba(237, 237, 237, 0.614) 100%), url('images/designer_1.png') right no-repeat;
+    }
+}

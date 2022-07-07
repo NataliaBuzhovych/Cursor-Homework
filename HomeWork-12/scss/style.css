@@ -343,6 +343,22 @@ footer {
   color: #B0B8BC;
 }
 
+.social__item {
+  transition: 0.3s all;
+}
+.social__item--active {
+  color: #091133;
+  transform: scale(1.5);
+}
+.social__item:hover {
+  transform: rotate(15deg);
+}
+
+button:hover {
+  transition: 0.3s all;
+  transform: scale(1.2);
+}
+
 @media (max-width: 1200px) {
   header {
     background: linear-gradient(to right, rgba(255, 255, 255, 0.674) 0%, rgba(237, 237, 237, 0.614) 100%), url("/HomeWork-12/images/designer_1.png") right no-repeat;

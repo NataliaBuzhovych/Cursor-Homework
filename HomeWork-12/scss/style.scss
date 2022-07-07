@@ -340,6 +340,18 @@ footer{
     justify-content: space-between;
     color: #B0B8BC;
 }
+.social__item{
+    transition: 0.3s all;
+    &--active{color: #091133;
+        transform:  scale(1.5);}
+    &:hover{
+        transform: rotate(15deg);
+    }
+}
+button:hover{
+    transition: 0.3s all;
+    transform: scale(1.2);
+}
 
 
 @media (max-width: 1200px) {
