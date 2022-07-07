@@ -54,7 +54,7 @@ header{
     justify-content: center;
     background-repeat: no-repeat;
     background-position-x: right;
-    background-image: url('/HomeWork-12/images/designer_1.png');
+    background-image: url(/HomeWork-12/images/designer_1.png);
 }
 
 
@@ -221,6 +221,9 @@ header{
             & p{
                 @include paragraph();
                 color: $ParagText;
+            }
+            &-btn{
+                margin-top: 40px;
             }
         }
 

@@ -13,7 +13,15 @@ nav, ul {
   margin: 0;
 }
 
-
+header {
+  display: flex;
+  margin: 0 auto;
+  height: 1100px;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-image: url(/HomeWork-12/images/designer_1.png);
+}
 
 .navigation {
   position: fixed;
@@ -200,6 +208,9 @@ nav, ul {
   font-style: normal;
   color: #6F7CB2;
 }
+.main__text-btn {
+  margin-top: 40px;
+}
 
 .main__img-second {
   height: 387px;
@@ -209,7 +220,14 @@ nav, ul {
   margin-right: 12.5%;
 }
 
-
+.blockLast {
+  height: 939px;
+  max-width: 1440px;
+  background-color: white;
+  background-image: url(/HomeWork-12/images/bgn.png);
+  display: flex;
+  align-items: center;
+}
 .blockLast__text {
   padding-left: 5%;
   display: flex;
