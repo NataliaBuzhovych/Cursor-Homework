@@ -384,7 +384,6 @@ button:hover {
     flex-direction: column;
     align-items: center;
   }
-
   .main {
     height: -webkit-fit-content;
     height: -moz-fit-content;
@@ -411,30 +410,25 @@ button:hover {
     flex-direction: column;
     flex-wrap: nowrap;
   }
-
   .text {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
   }
-
   .text-button {
     height: 82px;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
   }
-
   .blockLast__text h2 {
     text-align: center;
   }
-
   .footer__firstLine, .footer__lastLine {
     flex-direction: column;
     flex-wrap: nowrap;
   }
-
   .footer__firstLine-logo {
     margin-left: 0;
   }
