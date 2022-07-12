@@ -1,0 +1,79 @@
+@mixin colum{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@mixin btn {
+    border-radius: 5px;
+    padding: 14px 30px;
+    width: 144px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.BigButtons{
+    width: 660px;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__Primary{
+        @include colum();
+        &--NoIcon{
+            & button{
+                @include btn();
+                border: none;
+                background-color: #18A0FB;
+                color: white;
+            }
+        }
+        &--RightIcon{
+            & button {
+                @include btn();
+                border: none;
+                background-color: #18A0FB;
+                color: white;
+                & svg {
+                    width: 24px;
+                    height: 24px;
+                }
+                & .svg{
+                    stroke: white;
+                }
+            }
+        }
+        &--LeftIcon {
+            & button {
+                @include btn();
+                border: none;
+                background-color: #18A0FB;
+                color: white;
+
+                & svg {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                & .svg {
+                    stroke: white;
+                }
+            }
+        }
+
+   
+
+    }
+    &__Disabled{
+        @include colum();
+    }
+    &__Secondary{
+        @include colum();
+    }
+    &__Unfill{
+        @include colum();
+    }
+}
+

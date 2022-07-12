@@ -1,0 +1,82 @@
+.BigButtons {
+  width: 660px;
+  height: 200px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.BigButtons__Primary {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.BigButtons__Primary--NoIcon button {
+  border-radius: 5px;
+  padding: 14px 30px;
+  width: 144px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background-color: #18A0FB;
+  color: white;
+}
+.BigButtons__Primary--RightIcon button {
+  border-radius: 5px;
+  padding: 14px 30px;
+  width: 144px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background-color: #18A0FB;
+  color: white;
+}
+.BigButtons__Primary--RightIcon button svg {
+  width: 24px;
+  height: 24px;
+}
+.BigButtons__Primary--RightIcon button .svg {
+  stroke: white;
+}
+.BigButtons__Primary--LeftIcon button {
+  border-radius: 5px;
+  padding: 14px 30px;
+  width: 144px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background-color: #18A0FB;
+  color: white;
+}
+.BigButtons__Primary--LeftIcon button svg {
+  width: 24px;
+  height: 24px;
+}
+.BigButtons__Primary--LeftIcon button .svg {
+  stroke: white;
+}
+.BigButtons__Disabled {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.BigButtons__Secondary {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.BigButtons__Unfill {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */
