@@ -239,7 +239,7 @@ button {
 .main-screen {
     min-height: 1px;
     height: 700px;
-    background-image: -webkit-image-set( url("../img/main-screen-bg.avif") 1x, url("../img/main-screen-bg.jpg") 2x);
+    background-image: url("../img/main-screen-bg.avif");
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
