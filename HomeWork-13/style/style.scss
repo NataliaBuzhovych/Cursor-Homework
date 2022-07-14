@@ -32,6 +32,9 @@
         }
         &--RightIcon{
             & button {
+                & p{
+                    margin-right: 5px;
+                }
                 @include btn();
                 border: none;
                 background-color: #18A0FB;
@@ -47,6 +50,9 @@
         }
         &--LeftIcon {
             & button {
+                & p {
+                    margin-left: 5px
+                }
                 @include btn();
                 border: none;
                 background-color: #18A0FB;
@@ -68,12 +74,167 @@
     }
     &__Disabled{
         @include colum();
+            &--NoIcon {
+                & button {
+                    @include btn();
+                    border: none;
+                    background-color: rgba(224, 224, 224, 0.3);
+                    color: #878787;
+                }
+            }
+        
+            &--RightIcon {
+                & button {
+                    & p {
+                        margin-right: 5px;
+                    }
+        
+                    @include btn();
+                    border: none;
+                    background-color: rgba(224, 224, 224, 0.3);
+                    color:  #878787;
+        
+                    & svg {
+                        width: 24px;
+                        height: 24px;
+                    }
+        
+                    & .svg {
+                        stroke: #878787;
+                    }
+                }
+            }
+        
+            &--LeftIcon {
+                & button {
+                    & p {
+                        margin-left: 5px
+                    }
+        
+                    @include btn();
+                    border: none;
+                    background-color: rgba(224, 224, 224, 0.3);
+                    color:  #878787;
+        
+                    & svg {
+                        width: 24px;
+                        height: 24px;
+                    }
+        
+                    & .svg {
+                        stroke:#878787;
+                    }
+                }
+            }
     }
     &__Secondary{
         @include colum();
+        &--NoIcon {
+                & button {
+                    @include btn();
+                    border: 1px solid #E0E0E0;
+                    background-color: #fff;
+                    color: #2C2C2C;
+                }
+            }
+        
+            &--RightIcon {
+                & button {
+                    & p {
+                        margin-right: 5px;
+                    }
+                    @include btn();
+                        border: 1px solid #E0E0E0;
+                        background-color: #fff;
+                        color: #2C2C2C;
+        
+                    & svg {
+                        width: 24px;
+                        height: 24px;
+                    }
+        
+                    & .svg {
+                        stroke: #2C2C2C;
+                    }
+                }
+            }
+        
+            &--LeftIcon {
+                & button {
+                    & p {
+                        margin-left: 5px
+                    }
+        
+                    @include btn();
+                        border: 1px solid #E0E0E0;
+                        background-color: #fff;
+                        color: #2C2C2C;
+        
+                    & svg {
+                        width: 24px;
+                        height: 24px;
+                    }
+        
+                    & .svg {
+                        stroke: #2C2C2C;
+                    }
+                }
+            }
     }
     &__Unfill{
         @include colum();
+        &--NoIcon {
+                & button {
+                    @include btn();
+                    border: 1px solid #18A0FB;
+                    background-color: #fff;
+                    color: #18A0FB;
+                }
+            }
+        
+            &--RightIcon {
+                & button {
+                    & p {
+                        margin-right: 5px;
+                    }
+        
+                    @include btn();
+                    border: 1px solid #18A0FB;
+                    background-color: #fff;
+                    color: #18A0FB;
+        
+                    & svg {
+                        width: 24px;
+                        height: 24px;
+                    }
+        
+                    & .svg {
+                        stroke: #18A0FB;
+                    }
+                }
+            }
+        
+            &--LeftIcon {
+                & button {
+                    & p {
+                        margin-left: 5px
+                    }
+        
+                    @include btn();
+                    border: 1px solid #18A0FB;
+                    background-color: #fff;
+                    color: #18A0FB;
+        
+                    & svg {
+                        width: 24px;
+                        height: 24px;
+                    }
+        
+                    & .svg {
+                        stroke: #18A0FB;
+                    }
+                }
+            }
     }
 }
 
