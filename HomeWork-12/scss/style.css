@@ -13,16 +13,6 @@ nav, ul {
   margin: 0;
 }
 
-header {
-  display: flex;
-  margin: 0 auto;
-  height: 1100px;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-image: url(../images/designer_1.png);
-}
-
 .navigation {
   position: fixed;
   top: 0;
@@ -224,14 +214,7 @@ header {
   margin-right: 12.5%;
 }
 
-.blockLast {
-  height: 939px;
-  max-width: 1440px;
-  background-color: white;
-  background-image: url(/HomeWork-12/images/bgn.png);
-  display: flex;
-  align-items: center;
-}
+
 .blockLast__text {
   padding-left: 5%;
   display: flex;
@@ -359,11 +342,7 @@ button:hover {
   transform: scale(1.2);
 }
 
-@media (max-width: 1200px) {
-  header {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.674) 0%, rgba(237, 237, 237, 0.614) 100%), url("/HomeWork-12/images/designer_1.png") right no-repeat;
-  }
-}
+
 @media (max-width: 992px) {
   .blockOne {
     display: flex;
