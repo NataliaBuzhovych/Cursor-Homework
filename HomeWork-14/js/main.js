@@ -11,12 +11,19 @@ $(document).ready(function () {
         });
 			
 });
+                function init() {
+                var vidDefer = document.getElementsByName('video');
+                for (var i=0; i<vidDefer.length; i++) {
+                if(vidDefer[i].getAttribute('data-src')) {
+                vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+                } } }
+                // window.onload = init;
         // 2. This code loads the IFrame Player API code asynchronously.
-        // var tag = document.createElement('script');
+        var tag = document.createElement('script');
 
-        // tag.src = "https://www.youtube.com/iframe_api" ;
-        // var firstScriptTag = document.getElementsByTagName('script')[0];
-        // firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+        tag.src = "https://www.youtube.com/iframe_api" ;
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
         // 3. This function creates an <iframe> (and YouTube player)
         //    after the API code downloads.
